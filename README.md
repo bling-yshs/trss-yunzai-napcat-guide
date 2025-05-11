@@ -1,5 +1,7 @@
 # trss-yunzai-napcat-guide
 
+## Linux
+
 ### 准备材料
 
 1. 已经安装好的 trss-yunzai
@@ -40,6 +42,43 @@
    ws://host.docker.internal:2536/OneBotv11
    ```
 
-   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505101908875.png" alt="image-20250510190826779" />
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505101908875.png" alt="image-20250510190826779" style="zoom:33%;" />
 
 8. 启动登录 trss-yunzai 发现可以正常连上了
+
+## Windows
+
+### 准备材料
+
+1. 已经安装好的 trss-yunzai
+2. 已经安装好的 QQNT（新版QQ）
+
+### 参考资料
+
+https://napneko.github.io/guide/boot/Shell
+
+### 步骤
+
+1. 下载 https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.Windows.OneKey.zip 并解压
+
+2. 进入文件夹，运行launcher.bat，如果是win10就运行launcher-win10.bat
+
+3. 会自动安装ffmpeg，如果能正常安装上就行，前面的二维码扫不了也不用管
+
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112243760.png" alt="image-20250511224351665" style="zoom:33%;" />
+
+4. 浏览器打开 http://localhost:6099/webui 默认token是 `napcat`
+
+5. 扫码登录
+
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112245391.png" alt="image-20250511224517335" style="zoom:33%;" />
+
+6. 启动 trss-yunzai
+
+7. 回到浏览器，进入 网络配置 -> 新建 -> Websocket客户端
+
+8. 具体配置如图
+
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112247083.png" alt="image-20250511224724028" style="zoom:33%;" />
+
+9. 回到trss，发现连上了
