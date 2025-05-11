@@ -20,8 +20,10 @@
        -p 3000:3000 \
        -p 3001:3001 \
        -p 6099:6099 \
-       -v "/root/abys/napcat/QQ:/app/.config/QQ" \ # 这里换成自己的路径
-       -v "/root/abys/napcat/config:/app/napcat/config" \ # 这里换成自己的路径
+       -v "/root/abys/napcat/QQ:/app/.config/QQ" \
+       # 这里换成自己的路径
+       -v "/root/abys/napcat/config:/app/napcat/config" \
+       # 这里换成自己的路径
        --add-host=host.docker.internal:host-gateway \
        --name bridge-napcat-docker \
        --restart=unless-stopped \
