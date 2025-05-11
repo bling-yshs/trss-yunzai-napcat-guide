@@ -28,13 +28,11 @@
        mlikiowa/napcat-docker:latest
    ```
 
-3. 查看bridge-napcat-docker容器的控制台， 查找自动生成的token
-
 4. 放行安全组6099端口
 
 5. 访问 http://你的服务器IP:6099/webui
 
-6. 输入token，扫码登录QQ
+6. 输入token，默认是 `napcat` ，扫码登录QQ
 
 7. 添加websocket客户端，配置如图
 
