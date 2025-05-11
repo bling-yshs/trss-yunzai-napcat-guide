@@ -38,6 +38,8 @@
 
 7. 添加websocket客户端，配置如图
 
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
+
    ```shell
    ws://host.docker.internal:2536/OneBotv11
    ```
@@ -77,7 +79,13 @@ https://napneko.github.io/guide/boot/Shell
 
 7. 回到浏览器，进入 网络配置 -> 新建 -> Websocket客户端
 
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
+
 8. 具体配置如图
+
+   ```shell
+   ws://localhost:2536/OneBotv11
+   ```
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112247083.png" alt="image-20250511224724028" style="zoom:33%;" />
 
