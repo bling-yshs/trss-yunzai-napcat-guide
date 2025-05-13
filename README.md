@@ -1,7 +1,7 @@
 # trss-yunzai-napcat-guide
 
 > [!TIP]
-> miao-yunzai 切换为 trss-yunzai 只需在根目录运行 `node trss.js`，然后还需要重装一下依赖
+> miao-yunzai 切换为 trss-yunzai 只需在根目录运行 `node trss.js`，然后重装一下依赖就行
 
 ## Linux
 
