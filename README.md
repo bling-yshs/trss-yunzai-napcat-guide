@@ -23,23 +23,23 @@
        -p 3000:3000 \
        -p 3001:3001 \
        -p 6099:6099 \
+       # 这里换成自己的路径
        -v "/root/abys/napcat/QQ:/app/.config/QQ" \
        # 这里换成自己的路径
        -v "/root/abys/napcat/config:/app/napcat/config" \
-       # 这里换成自己的路径
        --add-host=host.docker.internal:host-gateway \
        --name bridge-napcat-docker \
        --restart=unless-stopped \
        mlikiowa/napcat-docker:latest
    ```
 
-4. 放行安全组 6099 端口
+3. 放行安全组 6099 端口
 
-5. 访问 http://你的服务器IP:6099/webui
+4. 访问 http://你的服务器IP:6099/webui
 
-6. 输入 token，默认是 `napcat`，扫码登录 QQ
+5. 输入 token，默认是 `napcat`，扫码登录 QQ
 
-7. 添加 websocket 客户端，配置如图
+6. 添加 websocket 客户端，配置如图
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
 
@@ -49,7 +49,7 @@
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505101908875.png" alt="image-20250510190826779" style="zoom:33%;" />
 
-8. 启动登录 trss-yunzai 发现可以正常连上了
+7. 启动登录 trss-yunzai 发现可以正常连上了
 
 ## Windows
 
