@@ -3,6 +3,9 @@
 > [!TIP]
 > miao-yunzai 切换为 trss-yunzai 只需在根目录运行 `node trss.js`，然后重装一下依赖就行
 
+> [!TIP]
+> trss-yunzai 设置主人只需对着机器人发送 `#设置主人`，然后回到控制台查看验证码，再把验证码发送给机器人就行
+
 ## Linux
 
 ### 准备材料
