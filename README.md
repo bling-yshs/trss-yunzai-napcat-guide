@@ -15,7 +15,7 @@
 
 ### 步骤
 
-1. 卸载 trss-yunzai 的 ICQQ-plugin
+1. 卸载 trss-yunzai 的 ICQQ-plugin 插件（直接删掉 Yunzai-Bot/plugins/ICQQ-plugin 文件夹）
 
 2. 运行命令
 
@@ -67,7 +67,7 @@ https://napneko.github.io/guide/boot/Shell
 
 ### 步骤
 
-1. 卸载 trss-yunzai 的 ICQQ-plugin
+1. 卸载 trss-yunzai 的 ICQQ-plugin 插件（直接删掉 Yunzai-Bot/plugins/ICQQ-plugin 文件夹）
 
 2. 下载 https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.Windows.OneKey.zip 并解压
 
