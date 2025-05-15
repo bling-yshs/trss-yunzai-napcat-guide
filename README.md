@@ -72,7 +72,7 @@ https://napneko.github.io/guide/boot/Shell
 
 1. 卸载 trss-yunzai 的 ICQQ-plugin 插件（直接删掉 Yunzai-Bot/plugins/ICQQ-plugin 文件夹）
 
-2. 下载 https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.Windows.OneKey.zip 并解压
+2. 下载 https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.zip 并解压
 
 3. 进入文件夹，运行 launcher.bat，如果是 win10 就运行 launcher-win10.bat
 
