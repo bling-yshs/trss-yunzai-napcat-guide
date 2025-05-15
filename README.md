@@ -20,7 +20,7 @@
 
 1. 卸载 trss-yunzai 的 ICQQ-plugin 插件（直接删掉 Yunzai-Bot/plugins/ICQQ-plugin 文件夹）
 
-2. 运行命令
+2. 运行命令，请注意不是在 trss 的 fish 里运行，需要在主机的终端里运行
 
    ```shell
    docker run -d \
