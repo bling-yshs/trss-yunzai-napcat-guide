@@ -43,7 +43,7 @@
 
 4. 访问 http://你的服务器IP:6099/webui
 
-5. 输入 token，默认是 `napcat`，扫码登录 QQ
+5. 输入 token，默认是 `napcat`，扫码登录 QQ ，如果登录不上，请检查 QQ 是否被封禁了
 
 6. 添加 websocket 客户端，配置如图
 
@@ -62,7 +62,6 @@
 ### 准备材料
 
 1. 已经安装好的 trss-yunzai
-2. 已经安装好的 QQNT（新版 QQ）
 
 ### 参考资料
 
@@ -72,32 +71,38 @@ https://napneko.github.io/guide/boot/Shell
 
 1. 卸载 trss-yunzai 的 ICQQ-plugin 插件（直接删掉 Yunzai-Bot/plugins/ICQQ-plugin 文件夹）
 
-2. 下载 https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.zip 并解压
+2. 下载 https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.Windows.OneKey.zip 并解压 
 
-3. 进入文件夹，运行 launcher.bat，如果是 win10 就运行 launcher-win10.bat
+   > 如果下载不下来可以尝试镜像地址 https://github.moeyy.xyz/https://github.com/NapNeko/NapCatQQ/releases/latest/download/NapCat.Shell.Windows.OneKey.zip
 
-4. 会自动安装 ffmpeg，如果能正常安装上就行，前面的二维码扫不了也不用管
+3. 进入文件夹，双击运行 `NapCatInstaller.exe`，会自动下载 QQ 以及相关文件
+
+4. 上一步结束以后，会在当前文件夹生成一个 `NapCat.34740.Shell` 文件夹（中间数字可能会变，但是大概长这样），进入文件夹。
+
+5. 运行文件夹里的 napcat.bat
+
+6. 会自动安装 ffmpeg，如果能正常安装上就行，前面的二维码扫不了也不用管
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112243760.png" alt="image-20250511224351665" style="zoom:33%;" />
 
-5. 浏览器打开 http://localhost:6099/webui 默认 token 是 `napcat`
+7. 浏览器打开 http://localhost:6099/webui 默认 token 是 `napcat`
 
-6. 扫码登录
+8. 扫码登录，如果登录不上，请检查 QQ 是否被封禁了
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112245391.png" alt="image-20250511224517335" style="zoom:33%;" />
 
-7. 启动 trss-yunzai
+9. 启动 trss-yunzai
 
-8. 回到浏览器，进入 网络配置 -> 新建 -> Websocket 客户端
+10. 回到浏览器，进入 网络配置 -> 新建 -> Websocket 客户端
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
 
-9. 具体配置如图
+11. 具体配置如图
 
-   ```shell
-   ws://localhost:2536/OneBotv11
-   ```
+    ```shell
+    ws://localhost:2536/OneBotv11
+    ```
 
-   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112247083.png" alt="image-20250511224724028" style="zoom:33%;" />
+    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112247083.png" alt="image-20250511224724028" style="zoom:33%;" />
 
-10. 回到 trss，发现连上了
+12. 回到 trss，发现连上了
