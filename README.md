@@ -53,7 +53,7 @@
    ws://host.docker.internal:2536/OneBotv11
    ```
 
-   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505101908875.png" alt="image-20250510190826779" style="zoom:33%;" />
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/20250731175906.png" alt="image-20250510190826779" style="zoom:33%;" />
 
 7. 启动登录 trss-yunzai 发现可以正常连上了
 
