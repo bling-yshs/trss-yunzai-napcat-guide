@@ -43,9 +43,12 @@
 
 4. 访问 http://你的服务器IP:6099/webui
 
-5. 输入 token，默认是 `napcat`，扫码登录 QQ ，如果登录不上，请检查 QQ 是否被封禁了
+5. 输入 token，~~默认是 `napcat`~~ (新版本需要使用命令 `docker logs --tail 300 bridge-napcat-docker` 查看 token)
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/a9346128fad4a61f90b688322c052a87.png" alt="image-20250511224351665" style="zoom:33%;" />
 
-6. 添加 websocket 客户端，配置如图
+6. 扫码登录 QQ ，如果登录不上，请检查 QQ 是否被封禁了
+
+7. 添加 websocket 客户端，配置如图
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
 
@@ -55,7 +58,7 @@
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/20250731175906.png" alt="image-20250510190826779" style="zoom:33%;" />
 
-7. 启动登录 trss-yunzai 发现可以正常连上了
+8. 启动登录 trss-yunzai 发现可以正常连上了
 
 ## Windows
 
@@ -85,19 +88,25 @@ https://napneko.github.io/guide/boot/Shell
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112243760.png" alt="image-20250511224351665" style="zoom:33%;" />
 
-7. 浏览器打开 http://localhost:6099/webui 默认 token 是 `napcat`
+   **注意观察命令行里，会展示 token ，复制下来后面要用到**
+   
+   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/a9346128fad4a61f90b688322c052a87.png" alt="image-20250511224351665" style="zoom:33%;" />
 
-8. 扫码登录，如果登录不上，请检查 QQ 是否被封禁了
+7. 浏览器打开 http://localhost:6099/webui
+
+8. 输入刚刚复制的 token
+
+9. 扫码登录，如果登录不上，请检查 QQ 是否被封禁了
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112245391.png" alt="image-20250511224517335" style="zoom:33%;" />
 
-9. 启动 trss-yunzai
+10. 启动 trss-yunzai
 
-10. 回到浏览器，进入 网络配置 -> 新建 -> Websocket 客户端
+11. 回到浏览器，进入 网络配置 -> 新建 -> Websocket 客户端
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
 
-11. 具体配置如图
+12. 具体配置如图
 
     ```shell
     ws://localhost:2536/OneBotv11
@@ -105,4 +114,4 @@ https://napneko.github.io/guide/boot/Shell
 
     <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112247083.png" alt="image-20250511224724028" style="zoom:33%;" />
 
-12. 回到 trss，发现连上了
+13. 回到 trss，发现连上了
