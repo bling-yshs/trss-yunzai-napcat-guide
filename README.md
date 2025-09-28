@@ -9,7 +9,7 @@
 > [!TIP]
 > 如果你想切换 napcat 里面登录的 QQ 账号，只需要重启 napcat 就行
 
-## Linux
+## Linux 系统教程
 
 ### 准备材料
 
@@ -60,7 +60,7 @@
 
 8. 启动登录 trss-yunzai 发现可以正常连上了
 
-## Windows
+## Windows 系统教程
 
 ### 准备材料
 
@@ -89,7 +89,7 @@ https://napneko.github.io/guide/boot/Shell
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112243760.png" alt="image-20250511224351665" style="zoom:33%;" />
 
    **注意观察命令行里，会展示 token ，复制下来后面要用到**
-   
+
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/a9346128fad4a61f90b688322c052a87.png" alt="image-20250511224351665" style="zoom:33%;" />
 
 7. 浏览器打开 http://localhost:6099/webui
@@ -104,7 +104,7 @@ https://napneko.github.io/guide/boot/Shell
 
 11. 回到浏览器，进入 网络配置 -> 新建 -> Websocket 客户端
 
-   <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
+    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
 
 12. 具体配置如图
 
