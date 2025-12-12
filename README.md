@@ -37,16 +37,19 @@
        mlikiowa/napcat-docker:latest
    ```
 
-3. 放行安全组 6099 端口
+3. 下面两个选项任选其一
 
-4. 访问 http://你的服务器IP:6099/webui
+   - 放行安全组 6099 端口，并访问 http://你的服务器IP:6099/webui
 
-5. 输入 token，~~默认是 `napcat`~~ (新版本需要使用命令 `docker logs --tail 300 bridge-napcat-docker` 查看 token)
+   - 自己电脑输入命令 ssh -L 6099:localhost:6099root@你的服务器IP，并访问 http://127.0.0.1:6099/webui
+
+4. 输入 token，~~默认是 `napcat`~~ (新版本需要使用命令 `docker logs --tail 300 bridge-napcat-docker` 查看 token)
+
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/a9346128fad4a61f90b688322c052a87.png" alt="image-20250511224351665" style="zoom:33%;" />
 
-6. 扫码登录 QQ ，如果登录不上，请检查 QQ 是否被封禁了
+5. 扫码登录 QQ ，如果登录不上，请检查 QQ 是否被封禁了
 
-7. 添加 websocket 客户端，配置如图
+6. 添加 websocket 客户端，配置如图
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/202505112300547.png" alt="image-20250511230042493" style="zoom:33%;" />
 
@@ -56,7 +59,7 @@
 
    <img src="https://raw.githubusercontent.com/bling-yshs/ys-image-host/main/img/20250731175906.png" alt="image-20250510190826779" style="zoom:33%;" />
 
-8. 启动登录 trss-yunzai 发现可以正常连上了
+7. 启动登录 trss-yunzai 发现可以正常连上了
 
 ## Windows 系统教程
 
